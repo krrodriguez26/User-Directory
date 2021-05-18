@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import employees from "../../employees.json";
 import "./style.css";
-import EmployeeCard from "../employeecard";
+import EmployeeCard from "../EmployeCard";
 
 
 
