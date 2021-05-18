@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { components } from 'react';
+import wrapper from "./components/wrapper";
+import jumbotron from "./components/title";
+import employees from "./employees.json";
+import main from "./components/main";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+class App extends components {
+  state = {
+    employees
+  };
 
+  render() {
+    return (
+      <wrapper>
+        <jumbotron />
+        <main />
+      </wrapper>
+    )
+  }
+};
 export default App;

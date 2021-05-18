@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function EmployeeCard(props) {
+function employeecard(props) {
   
     return (
         <div className="card">
@@ -28,4 +28,4 @@ function EmployeeCard(props) {
     )
 }
 
-export default EmployeeCard;
+export default employeecard;
