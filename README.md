@@ -1,6 +1,5 @@
 # User-Directory
 
-# Overview
 For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
 
 # User Story
@@ -16,6 +15,10 @@ Given a table of random users generated from the Random User API, when the user 
 * The user should be able to:
 * Sort the table by at least one category
 * Filter the users by at least one property.
+# Screenshot
+![alt text](https://github.com/krrodriguez26/User-Directory/blob/main/userdirectory/assets/EmployeeDirectory.png)
 
+
+# Deployed Link
 
 
