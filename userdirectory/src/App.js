@@ -1,42 +1,15 @@
-import React from 'react';
-import RandomUser from './RandomUser';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import EmployeesContainer from "./components/Container/EmployeesContainer";
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <RandomUser />
-      </header>
-    </div>
+    <>
+      <Header />
+      <EmployeesContainer />
+    </>
   );
-}
+};
 
-renderTableData(); {
-  return this.state.employees.map((employee, index) => {
-     const { id, name, age, email } = employee //destructuring
-     return (
-        <tr key={id}>
-           <td>{id}</td>
-           <td>{name}</td>
-           <td>{age}</td>
-           <td>{email}</td>
-        </tr>
-     )
-  })
-}
-
-render(); {
-  return (
-     <div>
-        <h1 id='title'>React Dynamic Table</h1>
-        <table id='employee'>
-           <tbody>
-              {this.renderTableData()}
-           </tbody>
-        </table>
-     </div>
-  )
-}
 export default App;
