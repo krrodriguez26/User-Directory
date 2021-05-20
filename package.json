@@ -2,7 +2,7 @@
   "name": "userdirectory",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/krrodriguez26/userdeploy/",
+  "homepage": "https://krrodriguez26.github.io/User-Directory/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
